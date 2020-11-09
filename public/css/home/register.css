@@ -1,0 +1,12 @@
+
+.link_dieukien:hover,
+.link_dieukien{
+    color: #2f9934;
+    text-decoration: underline;
+}
+.block_register .item_checkbox{
+    margin-top: 0;
+}
+#btn_register{
+    margin-top: 30px;
+}

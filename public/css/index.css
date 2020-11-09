@@ -1,0 +1,223 @@
+.navbar-fixed-top {
+    padding: 10px;
+}
+.nn-padding-right{
+    padding-right: 15px;
+}
+.nn-padding-left{
+    padding-left: 15px;
+}
+@media(max-width: 768px){
+    .nn-padding-right{
+        padding-right: 0;
+    }
+    .nn-padding-left{
+        padding-left: 0;
+    }
+}
+@media(max-width: 768px; ){
+    
+}
+.nn-bg-title{
+    border-bottom: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 900;
+    font-family: "HelveticaNeueLTStd";
+    margin-bottom: 16px;
+    margin-top: 20px;
+    line-height: 1;
+    padding: 15px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    z-index: 0;
+    min-width: 270px;
+}
+.nn-bg-title:after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    background: #77be1a;
+    display: inline-block;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transform: skew(-20deg);
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+}
+.nn-bg-note{
+    padding-bottom: 15px;
+}
+
+
+#nn-ct-slide img{
+    width: 100%;
+    height: 450px;
+}
+
+.nn-ct-cate-col{ 
+    margin-top: 30px;
+    padding: 0;   
+    overflow: hidden;
+}
+.nn-ct-cate-col img{
+    width: 100%;
+    max-height:250px; 
+}
+
+.nn-ct-product{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.nn-ct-item {
+    height: 350px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    position: relative;
+    max-width: 250px;
+}
+.nn-ct-item img{
+    height: 100%;
+    width: 100%;
+    max-width: 300px;
+}
+.nn-ct-item-action{
+    position: absolute;
+    background: red;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+
+}
+.nn-ct-new{
+    margin: 20px 0 30px 0;
+    overflow: hidden;
+    background: url("../img/q2.jpg");
+    background-attachment: fixed;
+    padding: 15px;
+    text-align: left;
+    color: #fff;
+}
+.nn-ct-new img{
+    width: 100%;
+}
+.nn-ct-topsale{
+    border: 1px solid #ccc;
+    height: 450px;    
+}
+
+.nn-ct-new-item img{
+    width: 110px;
+    height: 110px;
+}
+.nn-ct-new-item {
+    color: #fff;
+    text-align: left;
+}
+
+.nn-ct-sale{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.nn-ct-sale-info{
+    font-size: 25px;
+    color: #77be1a;
+}
+.nn-ct-sale-info ul{
+    margin: 30px 0 70px 0;
+    
+}
+.nn-ct-sale-info ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    background: #77be1a;
+    color: #fff;
+    border-radius: 10px;
+    margin-right: 20px;
+    position: relative;
+}
+.nn-note-sale-bottom{
+    color: #77be1a;
+    position: absolute;
+    bottom: -50px;
+    left: -0;
+}
+.nn-ct-sale-price{
+    font-size: 22px;
+    font-weight: 600;
+}
+.nn-under-line{
+   color: #6f6f6f;
+    font-size: 15px;
+    margin-left: 5px;
+    text-decoration: line-through;
+}
+.nn-ct-sale-cart{
+    min-width: 170px;
+    text-align: center;
+    background: #77be1a;
+    display: inline-block;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transform: skew(-20deg);
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.nn-bg-full-w{    
+    background: url('../img/bgfull.jpg');
+    text-align: center;
+    color: #77be1a;
+    overflow: hidden;
+    padding: 15px;
+}
+.nn-ct-footer{
+    margin-top: 30px;
+}
+.nn-ct-ft-item{
+    border:1px solid #ccc;
+    padding: 10px;
+}
+.nn-ct-ft-item img{
+    width: 100px;
+    height: 100px;
+}
+.nn-ct-ft-item .media{
+    /*border-bottom: 1px solid #ccc;*/
+}
+.navbar-default {
+    background-color: #0C1A1E;
+    border-color: #e7e7e7;
+}
+#nn-ul-hd-top {
+    display: inline;
+    list-style: none;
+}
+@media(max-width: 500px;){
+	.nn_intro_new{
+		display: none;
+	}
+}
+.product-item{
+    height: 260px; margin:2px 0px 2px 0px;
+}

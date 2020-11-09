@@ -1,0 +1,229 @@
+.block_show_cart{
+    margin-bottom: 30px;
+}
+.block_show_checkout h1,
+.block_show_cart h1{
+    font-size: 20px;
+}
+.content_cart{
+    width: 100%;
+    border: 1px solid #D6D4D4;
+}
+.content_cart thead{
+    width: 100%;
+    background: #FBFBFB;
+}
+.content_cart thead{
+    width: 100%;
+    background: #FBFBFB;
+}
+.content_cart th{
+    font-size: 15px;
+}
+.content_cart th, 
+.content_cart td{
+    padding: 7px;
+    border-right: 1px solid #D6D4D4;
+    border-bottom: 1px solid #D6D4D4;
+}
+.total_price_bottom,
+.price_cart,
+.subtotal,
+.price_total_cart{
+    color: #2f9934;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+}
+.block_qty_cart{
+    width: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+.block_qty_cart input{
+    padding: 7px 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    width: 100%;    
+}
+.add_qty,
+.sub_qty{
+    background: #F6F6F6;
+    border: none;
+    width: 48%;
+    margin: 1%;
+    float: left;
+    height: 30px;
+}
+.del_cart{
+    border: none;
+    background: none;
+    font-size: 25px;
+    margin: 0 auto;
+    display: block;
+}
+
+.content_cart img{
+    height: 100px;
+} 
+.bnt_continue_shopping{
+    border: none;
+    background: #333;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    padding: 8px 20px;
+}
+
+
+@media(max-width: 768px){
+    .content_cart thead{
+        display: none;
+    }
+    .content_cart tr{
+        border-bottom: 1px solid #ddd;
+    }
+    .content_cart .item td{
+        border: none;
+        float: left;
+    }
+    .content_cart tbody .item .price_cart{
+        clear: both;
+    }
+    .content_cart tbody .item .price_cart,
+    .content_cart tbody .item .block_qty_cart,
+    .content_cart tbody .item .block_del_cart,
+    .content_cart tbody .item .price_total_cart{
+        width: 25%;
+    }
+    .content_cart tbody .item .block_title_cart{
+        line-height: 120px;
+    }
+    .content_cart tbody .item .block_title_cart p{
+      display: inline-block;
+      vertical-align: bottom;
+      line-height: normal;
+    }
+
+    .content_cart .total_bottom_2,
+    .content_cart .total_bottom{
+        float: left;
+        border: none;
+    }
+    .content_cart .block_bnt_continue_shopping{
+        clear: both;
+        float: left;
+    }
+    .content_cart .total_bottom_2 td,
+    .content_cart .total_bottom td{
+        border: none;
+    }
+}
+@media(max-width: 480px){
+    .content_cart tbody .item .block_title_cart{
+        line-height: normal;
+    }
+    .content_cart img{
+        height: 80px;
+    }
+}
+
+
+
+.block_show_checkout{
+    margin-bottom: 40px;
+}
+.btn_checkout{
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+}
+
+.left_check_out input,
+.left_check_out textarea{
+    width: 100%;
+}
+
+
+
+.left_cart{
+    overflow: hidden;
+}
+.header_title_cart{
+    color: #999;
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+    font-size: 12px;
+}
+.item_cart{
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    overflow: hidden;
+}
+.item_cart img{
+    float: left;
+    padding-right: 10px;
+    width: 100px;
+    max-width: 100%;
+}
+.des_item_cart p{
+    margin-bottom: 0;
+}
+.des_item_cart .title{
+    font-weight: bold;
+}
+.des_item_cart .info{
+    font-size: 13px;
+}
+.des_item_cart{
+    float: left;
+}
+.des_item_cart .delete a{
+    color: #ffc106;
+    font-size: 13px;
+    text-decoration: underline;
+}
+.des_item_cart .delete{
+    margin-top: 7px;
+}
+.qty_in_cart{
+    text-align: center;
+}
+
+
+
+.block_right_cart{
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.tamtinh_cart{
+    font-size: 13px;
+}
+.vanchuyen_cart{
+    font-size: 13px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+.tamtinh_cart b,
+.thanhtien_cart b,
+.vanchuyen_cart b{
+    float: right;
+}
+.thanhtien_cart{
+    border-top: 2px solid #2f9934;
+    font-size: 13px;
+    padding-top: 5px;
+}
+.thanhtien_cart span{
+    font-size: 15px;
+    color: #f00;
+    font-weight: bold;
+}
+
+.qty_price_to_sale{
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: left;
+    color: #f00;
+}

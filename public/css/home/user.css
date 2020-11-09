@@ -1,0 +1,13 @@
+.title_info_user{
+    font-size: 20px;
+}
+
+#txtFulladdress{
+	background: #E3E3E3;
+}
+#logout_cus{
+	font-size: 16px;
+	margin-top: 20px;
+	display: block;
+	text-align: center;
+}

@@ -1,0 +1,10 @@
+.item_search{
+	padding: 20px 0;
+	border: none;
+	border-bottom: 1px dashed #ddd;
+}
+.item_search img{
+	max-height: 100px;
+	display: block;
+	margin: 0 auto;
+}

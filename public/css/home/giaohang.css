@@ -1,0 +1,48 @@
+.step_giaohang{
+	background: #F1F1F1;
+	overflow: hidden;
+	clear: both;
+    border: 1px solid #ddd;
+}
+
+.form_giaohang{
+	padding: 20px 0;
+}
+.form_giaohang .item .col-md-3{
+	font-size: 13px;
+	font-weight: bold;
+}
+.form_giaohang .item{
+	padding: 5px 0;
+	overflow: hidden;
+}
+.form_giaohang textarea,
+.form_giaohang input,
+.form_giaohang select{
+	width: 100%;
+    padding: 6px 10px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+#btn_ok_giaohang{
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.address_default,
+.address_custom{
+	background: #f9f9f9;
+	border-radius: 5px;
+	padding-top: 15px !important;
+	padding-bottom: 5px !important;
+}
+#txtFullAddress_Giaohang{
+	background: #f9f9f9;
+}
+
+
+.item_checkbox_same_address label{
+	color: #2f9934;
+	font-weight: bold;
+}

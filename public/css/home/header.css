@@ -1,0 +1,13 @@
+.content_listproducts{
+    display: none;
+}
+.wrapper_content_listproducts .block_content_listproducts .content_listproducts:first-child{
+    display: block;
+}
+
+.content_listnews{
+    display: none;
+}
+.wrapper_content_listnews .block_content_listnews .content_listnews:first-child{
+    display: block;
+}

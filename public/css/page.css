@@ -1,0 +1,122 @@
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-brand a{
+	color: #fff;
+}
+.navbar-default .navbar-brand:hover a{
+	color: #fff;
+}
+.navbar-default {
+    background-color: #337ab7;
+    border-color: #B34436;
+}
+.nav>li>a {
+    color: #fff 
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #B34436;
+    border-color: #B34436;
+    color: #fff;
+}
+.nn-navbar-left{
+	background-color: #fff;
+    border-color: #e7e7e7;
+}
+.nn-navbar-left{
+	padding: 30px 0;
+}
+.nn-navbar-left .nav>li>a {
+    color: #222;
+}
+.nn-navbar-left .nav>li>a:hover{
+	color: #fff;
+	background-color: #337ab7;
+}
+.nn-float-left{
+	float: left;
+}
+.nn-float-right{
+	float: right;
+}
+.nn-full-bg{
+	overflow: hidden;
+}
+#nn-img-pro{
+	width: 140px;
+	height: 140px;
+}
+#nnavatarfile,#ennavatarfile{
+	display: none;
+}
+.nn-stt-1{
+	background: #5bc0de;
+	height: 100px;
+}
+.nn-stt-2{
+	background: #f0ad4e;
+	height: 100px;
+}
+.nn-stt-3{
+	background: #5cb85c;
+	height: 100px;
+}
+.nn-stt-4{
+	background: #d9534f;
+	height: 100px;
+}
+.nn-info-work-phone{
+	overflow: hidden;
+	line-height: 20px;
+	padding-bottom: 15px;
+	cursor: pointer;
+}
+.nn-visible-wp{
+	display: none;
+}
+.nn-pro-wp{
+	overflow: hidden;
+}
+.nn-pro-wp img{
+	width: 100%;
+}
+.nn-pro-wp-in{
+	margin-bottom: 10px;
+}
+.nn-add-pro-ok{
+	float: bottom;
+}
+.nn-input-wp{
+	margin-top:5px; 
+}
+.nn-time-wp{
+	color: #d9534f;
+}
+@media (max-width: 768px){
+	.nn-content-phone{
+		padding-top: 70px;
+	}
+}
+.nnbodydelete{
+    text-align: center;
+    margin: 30px 0 30px 0;
+    color: red;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #d43f3a;
+}
+.nn-img-lang-top {
+	width: 50px;
+	float: right;
+}
+.nnstatusorder{
+	text-align: right;
+	padding-top: 30px;
+}
+#myModalLabel{
+	color: #B34436;
+}
+.float-right{
+	float: right;
+}

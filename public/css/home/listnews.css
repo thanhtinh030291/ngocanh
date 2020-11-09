@@ -1,0 +1,12 @@
+.item_news_in_list .block_image_news{
+    padding-bottom: 0;
+}.item_news_in_list .block_content_news{
+    border: none;
+}
+.block_content_news .title{
+    font-size: 22px;
+}
+
+.clear_both{
+    clear: both;
+}
