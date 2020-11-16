@@ -183,7 +183,7 @@
                 <div class="row">
 
                     <div class="col-md-3 search-follow ow-right-padding" style="padding-left: 0px;">
-                        <a href="" class="follow hidden-xs"><i class="fa fa-phone-square"></i> 0123.456.789</a>
+                        <a href="tel:{$contact->phone}}" class="follow hidden-xs"><i class="fa fa-phone-square"></i>{{$contact->phone}}</a>
                         <a class="follow visible-xs text-justify" href="{{ url("") }}"><img src="{{ asset('public/img/logoNT7solution.png') }}" alt="NT7Solution" height="60"></a> 
                         <div id="sb-search" class="sb-search">
                             <form action="{{ url('/search') }}">
