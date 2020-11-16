@@ -153,14 +153,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 logo-block col-sm-3">
-                        <a href="{{ url("") }}"><img src="{{ asset('public/img/logoNT7solution.png') }}" alt="no logo"></a>                        
+                        <a href="{{ url("") }}"><img src="{{ asset('public/img/logo.png') }}" alt="no logo"></a>                        
                     </div>
                     <div class="col-md-6 col-sm-6 nt7-padding-top">
                         <form action="{{ url('/search') }}"> 
                             <div class="form-group has-deflaut has-feedback">
                               <input type="text" class="form-control" id="inputSuccess2" name="key" aria-describedby="inputSuccess2Status" placeholder="Nhập từ khóa để tìm kiếm sản phẩm, hướng dẫn kỹ thuật, tin tức..." style="border: 1px solid #1d769c;">
                               <span class="glyphicon glyphicon-search form-control-feedback" aria-hidden="true"></span>
-                              <label class="control-label" for="inputSuccess2" style="color:#de3737;">android tv box, tv box, micro hát karaoke, con quay spinner...</label>
+                              <label class="control-label" for="inputSuccess2" style="color:#de3737;">Mỹ Phẩm thiên nhiên , trị mụn...</label>
                             </div>
                         </form>
                     </div>
@@ -218,7 +218,7 @@
                                                             <li>
                                                                 <a class="parent" href="{{ url('loai-san-pham/'.$itemmod->slug) }}">
                                                                     <img class="icon-menu" alt="Funky roots" src="{{url('/'.$itemmod->modimg)}}" style="margin-top: -5px;" width="25" height="25"> {{ $itemmod->modname }}</a>
-                                                                 <div class="sub-box-menu col-md-12">
+                                                                <div class="sub-box-menu col-md-12">
                                                                     <ul class="sub-menu">
                                                                         @foreach($itemmod->listproducts as $itemlist)
                                                                             <li><a href="{{ url('loai-san-pham/'.$itemlist->slug) }}">{{ $itemlist->listname }}</a></li>

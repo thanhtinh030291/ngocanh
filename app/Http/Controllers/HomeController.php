@@ -2,6 +2,7 @@
 use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request; 
 use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\View;
 
 use App\Cate;
 use App\Product;
@@ -40,6 +41,8 @@ class HomeController extends Controller {
     function __construct(){ 
 		$this->middleware(function ($request, $next) {
 			$this->idlang = session()->get('idlocale') ;
+			$contact = Contact::findOrFail($this->idlang);
+			View::share('contact', $contact);
             return $next($request);
         });
     }
@@ -199,7 +202,6 @@ class HomeController extends Controller {
                 "news_new"=>$news_new,
                 "modnews"=>$modnews,
                 "modproducts"=>$modproducts,
-                "contact"=>$contact,
                 "listnews"=>$listnews,
                 "listproducts"=>$listproducts,
                 "listproducts_cat"=>$listproducts_cat,

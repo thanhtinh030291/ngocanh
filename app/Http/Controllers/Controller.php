@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Auth;
 use Cart;
 use App\Product;
 use App\Language;
+use App\Contact;
 use Session;
 use Illuminate\Support\Facades\DB;
 
@@ -20,7 +21,7 @@ class Controller extends BaseController
 
     function __construct(){
     	$this->LoginAdmin();
-    	$this->Languages();    	
+        $this->Languages();   	
     }
     function LoginAdmin(){
     	if(Auth::check())
