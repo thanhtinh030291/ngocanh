@@ -541,8 +541,8 @@
 <!-- chat fb -->
 {{-- phone --}}
 <div class="phonenow visible-xs">
-    <a class="btn-call-now" href="tel:0123.456.789" onclick="_gaq.push(['_trackEvent', 'Contact', 'Call Now Button', 'Phone']);">
-    <img src="http://giahungtech.vn/public/img/phonenow.png"> 0123.456.789</a>
+    <a class="btn-call-now" href="tel:{{$contact->phone}}" onclick="_gaq.push(['_trackEvent', 'Contact', 'Call Now Button', 'Phone']);">
+    <img src="{{ asset("public/img/phonenow.png") }}"> {{$contact->phone}}</a>
 </div>
 {{-- end phone --}}
 <style type="text/css" media="screen">
