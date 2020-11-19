@@ -296,7 +296,7 @@
             <div class="container">                
                 <div class="row">
                     <div class="col-xs-12">
-                        <a  href="{{ url("") }}"><img src="{{ asset('public/img/logoNT7solution.png') }}" alt="NT7Solution" height="40" style="margin-left: 35%;"></a> 
+                        <a  href="{{ url("") }}"><img src="{{ asset('public/img/logo.png') }}" alt="logo" height="40" style="margin-left: 35%;"></a> 
                     </div>
                 </div>
             </div><!-- container /- -->
