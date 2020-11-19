@@ -49,7 +49,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{ url('/admin')}}">TECHVN - ADMIN</a>
+                <a class="navbar-brand" href="{{ url('/admin')}}">NGỌC ANH BEAUTY - ADMIN</a>
             </div>
             <!-- /.navbar-header -->
 

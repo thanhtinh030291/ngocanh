@@ -384,7 +384,7 @@
         <div class="footer-bottom">
             <div class="container">
                 <div class="col-md-6 col-sm-6">
-                    <p>© 2017 techvn All Rights Reserved. </p>
+                    <p>© 2017 NGỌC ANH BEAUTY All Rights Reserved. </p>
                 </div>
                 <div class="col-md-6 col-sm-6">
                     <nav class="navbar navbar-default">                     
@@ -458,7 +458,7 @@
     <div class="wrapper_menu visible-xs">   
         <div class="button_show_menu" style="color: #fff; margin-left: 0px; z-index: 222222222;"><i class="glyphicon glyphicon-th-list"></i></div>
             <div class="nav-side-menu"> 
-                <div class="brand"> TechVN 
+                <div class="brand"> NGỌC ANH BEAUTY 
                     <span class="nt7_font_title hidden-md hidden-lg pull-right" style="margin-right: 10px; color: #fff;"><a href="{{ url('cart') }}"><i class="fa fa-shopping-cart" style="color: #fff;"> <span class="label label-danger">{{ Cart::count() }}</span> </i></a></span>
                 </div>    
                 <div class="menu-list">          
