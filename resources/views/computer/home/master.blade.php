@@ -184,7 +184,7 @@
 
                     <div class="col-md-3 search-follow ow-right-padding" style="padding-left: 0px;">
                         <a href="tel:{$contact->phone}}" class="follow hidden-xs"><i class="fa fa-phone-square"></i>{{$contact->phone}}</a>
-                        <a class="follow visible-xs text-justify" href="{{ url("") }}"><img src="{{ asset('public/img/logoNT7solution.png') }}" alt="NT7Solution" height="60"></a> 
+                        <a class="follow visible-xs text-justify" href="{{ url("") }}"><img src="{{ asset('public/img/logo.png') }}" alt="logo" height="60"></a> 
                         <div id="sb-search" class="sb-search">
                             <form action="{{ url('/search') }}">
                                 <input class="sb-search-input" placeholder="{{ trans('index.search') }}..." type="text" value="" name="key" id="key">
@@ -202,7 +202,7 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a href=""><img src="{{ asset('public/img/logoNT7solution-mobile.png') }}" class="logo_mobile" alt="NT7Solution"></a>
+                                <a href=""><img src="{{ asset('public/img/logo.png') }}" class="logo_mobile" alt="logo"></a>
                             </div>
                             <div class="row">
                                 <div class="col-md-3 hidden-xs hidden-sm text-center">                                
