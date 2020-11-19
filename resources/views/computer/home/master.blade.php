@@ -275,9 +275,9 @@
                                                 @endif
                                                 </li>
                                             @endforeach  
-                                            <li class="dropdown mega-dropdown hidden-xs hidden-sm ">
+                                            {{-- <li class="dropdown mega-dropdown hidden-xs hidden-sm ">
                                                  <a href="{{ url('/kho-ung-dung') }}" class="dropdown-toggle" style="text-transform: uppercase;">Kho ứng dụng </a>
-                                            </li>                                          
+                                            </li>                                           --}}
                                             <li class="dropdown mega-dropdown hidden-xs hidden-sm ">
                                                  <a href="{{ url('/contact') }}" class="dropdown-toggle" style="text-transform: uppercase;">Liên Hệ </a>
                                             </li>
