@@ -263,7 +263,7 @@ a {
 }
 
 .color-pink-red {
-    background-color: #1d769c;
+    background-color: #d3c505;
 }
 
 .full-box-inner > img,
@@ -299,11 +299,11 @@ a {
 
 /* Top Header */
 .top-header{
-    background-color: #76b51b;
+    background-color: #d3c505;
     width: 100%;
 } 
 .menu-block {
-    background-color: #76b51b;
+    background-color: #d3c505;
     width: 100%;
 }
 
@@ -400,7 +400,7 @@ a {
 .menu-block .navbar-default .navbar-nav > li > a:hover,
 .menu-block .follow,
 .latest-update h3 {
-    background-color: #1d769c;
+    background-color: #d3c505;
 }
 @media (min-width: 768px){
     .menu-block .follow { 
@@ -997,7 +997,7 @@ a {
 }
 
 .category-post-section .post-box .add-sign-big {
-  /*bottom: 38%;*/;
+  /*bottom: 38%;*/
 }
 
 .category-post-section .box-content p {
@@ -1167,7 +1167,7 @@ a {
 }
 
 .pagination > li a:hover {
-    background-color: #1d769c;
+    background-color: #d3c505;
     color: #fff;
 }
 
@@ -1179,7 +1179,7 @@ a {
 }
 
 .footer-bottom {
-    background-color: #10485f;
+    background-color: #b9ad04;
     /*margin-top: 74px;*/
 }
 
@@ -3319,7 +3319,7 @@ a {
     .menu-block-nofix {
         box-shadow: 0px 2px 5px rgba(0,0,0,0.35);
         margin-bottom: 25px;
-        background-color: #1d769c;
+        background-color: #d3c505;
         width: 100%;
     }
     .phonenow {
@@ -3328,7 +3328,7 @@ a {
         height: 52px;
         position: fixed;
         width: 100%;
-        background-color: #1d769c;
+        background-color: #d3c505;
         border-bottom: 2px solid #222222;
         border-radius: 2px 2px 0px 0px;
     }

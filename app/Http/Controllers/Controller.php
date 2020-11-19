@@ -13,6 +13,7 @@ use App\Language;
 use App\Contact;
 use Session;
 use Illuminate\Support\Facades\DB;
+use View;
 
 class Controller extends BaseController
 {
@@ -21,7 +22,9 @@ class Controller extends BaseController
 
     function __construct(){
     	$this->LoginAdmin();
-        $this->Languages();   	
+        $this->Languages();
+        $vision = 15;
+        View::share('vision', $vision);	
     }
     function LoginAdmin(){
     	if(Auth::check())

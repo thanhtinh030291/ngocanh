@@ -14,17 +14,17 @@
     <title>@yield('title')</title>
 
     <link href="{{ asset('public/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet"> 
-    <link href="{{ asset('public/bootstrap/metisMenu/metisMenu.min.css') }}" rel="stylesheet">  
+    <link href="{{ asset('public/bootstrap/metisMenu/metisMenu.min.css?vision=') .$vision }}" rel="stylesheet">  
         <!-- DataTables CSS -->
-    <link href="{{ asset('public/bootstrap/datatables-plugins/dataTables.bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/bootstrap/datatables-plugins/dataTables.bootstrap.css?vision=') .$vision }}" rel="stylesheet">
 
     <!-- DataTables Responsive CSS -->
-    <link href="{{ asset('public/bootstrap/datatables-responsive/dataTables.responsive.css') }}" rel="stylesheet"> 
-    <link href="{{ asset('public/bootstrap/selector/css/select2.min.css') }}" rel="stylesheet"> 
-    <link href="{{ asset('public/bootstrap/css/sb-admin-2.css') }}" rel="stylesheet"> 
-    <link href="{{ asset('public/css/page.css') }}" rel="stylesheet"> 
-    <link href="{{ asset('public/bootstrap/css/font-awesome.css') }}" rel="stylesheet"> 
-    <script src="{{ asset('public/bootstrap/js/jquery.js') }}"></script>
+    <link href="{{ asset('public/bootstrap/datatables-responsive/dataTables.responsive.css?vision=') .$vision }}" rel="stylesheet"> 
+    <link href="{{ asset('public/bootstrap/selector/css/select2.min.css?vision=') .$vision }}" rel="stylesheet"> 
+    <link href="{{ asset('public/bootstrap/css/sb-admin-2.css?vision=') .$vision }}" rel="stylesheet"> 
+    <link href="{{ asset('public/css/page.css?vision=') .$vision }}" rel="stylesheet"> 
+    <link href="{{ asset('public/bootstrap/css/font-awesome.css?vision=') .$vision }}" rel="stylesheet"> 
+    <script src="{{ asset('public/bootstrap/js/jquery.js?vision=') .$vision }}"></script>
 
     <!-- ckeditor -->
     <script src="{{ url('public/editor/ckeditor/ckeditor.js')}}"></script>
