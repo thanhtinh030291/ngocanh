@@ -4,7 +4,7 @@ return [
 	"login2" => "Tài khoản",
 	"shipping1" => "Địa Chỉ Giao Nhận",
 	"shipping2" => "Giao Hàng",
-	"pay1" => "Thanh Toán & Đặt Món",
+	"pay1" => "Thanh Toán & Đặt Hàng",
 	"pay2" => "Thanh Toán ",
 
 	"login_to_sys" => "Đăng nhập tài khoản",

@@ -4,7 +4,7 @@ return [
 	"method_payment" => "Chọn hình thức thanh toán",
 	"method_shipping" => "Chọn hình thức giao hàng",
 	"btn_order" => "Chấp nhận đặt hàng",
-	"note" => "(Xin vui lòng kiểm tra lại menu của bạn trước khi Chấp nhận đặt món)",
+	"note" => "(Xin vui lòng kiểm tra lại menu của bạn trước khi Chấp nhận đặt hàng)",
 	"address" => "Địa chỉ giao hàng",
 	"address_pay" => "Địa chỉ thanh toán",
 	"address_same" => "Địa chỉ thanh toán & giao hàng",
