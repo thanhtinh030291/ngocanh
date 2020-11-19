@@ -23,7 +23,7 @@ class Controller extends BaseController
     function __construct(){
     	$this->LoginAdmin();
         $this->Languages();
-        $vision = 16;
+        $vision = 17;
         View::share('vision', $vision);	
     }
     function LoginAdmin(){
