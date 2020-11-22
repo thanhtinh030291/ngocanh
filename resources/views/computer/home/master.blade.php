@@ -589,7 +589,7 @@ function topFunction() {
 }
 </script>
  <button onclick="topFunction()" id="myBtn" title="Về đầu trang"><b class="fa fa-arrow-up"></b></button>
-<div class="hidden-xs">
+
 <!--Start of Tawk.to Script-->
 <!-- Load Facebook SDK for JavaScript -->
 <div id="fb-root"></div>
@@ -618,7 +618,7 @@ logged_in_greeting="Cảm ơn bạn đã nhắn tin cho chúng tôi"
 logged_out_greeting="Cảm ơn bạn đã nhắn tin cho chúng tôi">
 </div>
 <!--End of Tawk.to Script-->
-</div>
+
 </body>
 
 </html>
